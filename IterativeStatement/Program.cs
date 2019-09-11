@@ -13,7 +13,7 @@ namespace IterativeStatement
         static void Main(string[] args)
         {
             //Ask the user for input
-            Console.WriteLine("Enter a value between 1 and 100.");
+            Console.Write("Enter a value between 1 and 100: ");
 
             try
             {
@@ -24,7 +24,8 @@ namespace IterativeStatement
                     // Will execute For Loop only if input is an integer between 1 and 100
                 {
                     // This is the code for the For Loop
-                    for (int i = 1; i <= value_of_input; i++) // The Loop will begin on 1 and increase each time
+                    for (int i = 1; i <= value_of_input; i++) 
+                        // The Loop will begin on 1 and increase each time
                     {
                         Console.WriteLine("You have entered " + value_of_input.ToString() + 
                             ". This is the current integer value in the loop: " + i.ToString());
